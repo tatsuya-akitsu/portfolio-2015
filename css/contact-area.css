@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=Text+Me+One);
+
+/*
+  Menu
+*/
+nav#slide-menu {
+  position: fixed;
+  top: 0;
+  left: 70%;
+  bottom: 0;
+  display: block;
+  float: left;
+  width: 284px;
+  height: 780px;
+  overflow:scroll;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+nav#slide-menu > ul {
+  display: block;
+  margin: 40px;
+  padding: 0;
+  list-style: none;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+nav#slide-menu > ul li {
+    cursor: pointer;
+}
+
+.cc-title{
+    width:100%;
+    height:60px;
+    margin-top:10%;
+    margin-left:-10%;
+}
+
+.cc-title h2{
+	font-family: 'Text Me One', sans-serif;
+    font-size:40px;
+    color:#fff;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size:35px;
+    color:#fff;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-twitter:hover{
+    color:#2F8EC6;
+}
+
+.fa-facebook-square:before {
+    content: "\f082";
+}
+
+.fa-facebook-square:hover{
+    color:#2F8EC6;
+}
+
+.fa-instagram{
+	content: "\f16d";
+}
+
+.fa-instagram:hover{
+	color:#2F8EC6;
+}
+
+.cc-tw{
+    width:25%;
+    height:50px;
+    padding-left:15%;
+    float:left;
+}
+
+.cc-fb{
+    width:25%;
+    height:50px;
+    padding-left:14%;
+		float:left;
+}
+
+.cc-in{
+	width:25%;
+	height:50px;
+	padding-left:64%;
+}
+
+.cc-in:after{
+    content:"";
+    clear:both;
+    display:none;
+}
+
+.cc-jork{
+    width:100%;
+    height:160px;
+    margin-top:150%;
+    margin-left:-12%;
+}
+
+.cc-jork h3{
+    font-family: 'Text Me One', sans-serif;
+    font-size:20px;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba( 0, 0, 0, 0.3);
+    letter-spacing:1px;
+    line-height:22px;
+}
+
+.cc-address{
+    width:100%;
+    height:200px;
+    margin-top:20%;
+    margin-left:-12%;
+}
+
+.cc-address a{
+    text-decoration:none;
+    font-family: 'Text Me One', sans-serif;
+    font-size:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba( 0, 0, 0, 0.3);
+    letter-spacing:1px;
+    line-height:22px;
+    padding-left:3%;
+}
+
+.fa-mobile:before {
+    content: "\f10b";
+    color:#2F8EC6;
+}
+
+.fa-building-o:before {
+    font-size:25px;
+    content: "\f0f7";
+    color:#2F8EC6;
+}
+
+.fa-envelope:before {
+    font-size:25px;
+    content: "\f0e0";
+    color:#2F8EC6;
+}
+
+nav#slide-menu > ul li:before {
+	font-family: 'Text Me One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  color: #59e9df;
+  margin-right: 12px;
+  text-align: center;
+  font-variant: normal;
+  font-size: 0.75em;
+  text-transform: none;
+  line-height: 1em;
+}
+nav#slide-menu > ul li.sep {
+  margin-top: 7px;
+  padding-top: 14px;
+  border-top: 1px solid #6b7b8d;
+}
+nav#slide-menu > ul li.timeline:before {
+  content: '\e805';
+}
+nav#slide-menu > ul li.events:before {
+  content: '\e802';
+}
+nav#slide-menu > ul li.calendar:before {
+  content: '\e800';
+}
+nav#slide-menu > ul li.settings:before {
+  content: '\e803';
+}
+nav#slide-menu > ul li.logout:before {
+  content: '\e804';
+}
+
+body.menu-active nav#slide-menu {
+    top:15%;
+  left: 100%;
+}
+
+body.menu-active nav#slide-menu ul {
+  left: 0px;
+  opacity: 1;
+}
+
+/*
+  Content
+*/
+#content1{
+  top: 0;
+  left: -550px;
+  width: 100%;
+  height: 780px;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+#content1 .menu-trigger {
+    z-index:100;
+  position: fixed;
+  top: 10px;
+  left: 91%;
+  width: 8%;
+  height: 110px;
+    background-image:url('../img/07.png');
+    background-size:90%;
+    background-repeat:no-repeat;
+  cursor: pointer;
+  border-radius: 5px;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+#content1 .menu-trigger:before {
+  content: '\e801';
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  color: black;
+	font-family: 'Text Me One', sans-serif;
+  font-style: normal;
+  font-size: 1.2em;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: center;
+  text-transform: none;
+  line-height: 36px;
+}
+#content1 .menu-trigger:hover {
+    background-image:url('../img/06.png');
+    background-size:90%;
+    background-repeat:no-repeat;
+}
+#content1 .menu-trigger:hover:before {
+  color: #fcfeff;
+}
+
+body.menu-active #content1{
+  left: 0px;
+  border-radius: 1% 1% 1% 1%;
+}
+
+body.menu-active #main{
+  left: 200px;
+}
+
+body.menu-active #aboutme{
+  left: 0px;
+  border-radius: 1% 1% 1% 1%;
+}
+
+
+body.menu-active #gallery{
+  left: 0px;
+  border-radius: 1% 1% 1% 1%;
+}
+
+body.menu-active footer{
+  left: 0px;
+  border-radius: 1% 1% 1% 1%;
+}
+
+body.menu-active #content1 #aboutme .menu-trigger {
+  left: 95%;
+}

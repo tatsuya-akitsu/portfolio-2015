@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet"><!---animation---------->
+		<link href="css/contact-area.css" rel="stylesheet"><!---contact-area------->
+		<link href="css/form.css" rel="stylesheet"><!---contact-form--------->
+		<link href="css/accordion.css" rel="stylesheet"><!---accordion--------->
+		<link href="css/rp-nav.css" rel="stylesheet"><!---responsive-nav---------->
+		<link href="css/scroll.css" rel="stylesheet"><!---scroller----------->
+		<link href="css/hover.css" rel="stylesheet"><!---gallery-hover--------->
+		<link href="css/responsive.css" rel="stylesheet"><!---responsive----------->
+
+		<meta name="viewport" content="width=device-width, maximum-scale=1">
+
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link rel="icon" href="img/08.ico" alt=""><!---favicon-------------->
+
+		<script src="js/wow-min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+
+
+		<title>
+			Tatsuya makes Graphic Design
+		</title>
+	</head>
+
+	<body class="menu-active">
+		<header id="content1">
+			<!-- <div class="hana">
+			</div> -->
+
+			<section id="titlearea">
+				<img src="img/020.png" alt="">
+			</section><!--------------------------------titlearea------------>
+
+			<section class="left-menu">
+				<section class="logo">
+					<h1><img src="img/tatsuya_logo.png" alt=""></h1><!---ロゴ系はh1タグで記述する。ロゴの名前をしっかりつける。section〜で囲う。-->
+				</section><!-------------class logo----->
+
+				<article class="accordion">
+					<section class="section">
+						<input type="radio" name="accordion-1" id="section-1" checked="checked"/>
+						<label for="section-1"><span>Top</span></label>
+
+						<section class="content">
+							<ul>
+								<li><a href="#content1"><span>Home</span></a></li>
+								<li><a href="#aboutme"><span>Biography</span></a></li>
+								<li><a href="#gallery"><span>Works</span></a></li>
+							</ul>
+						</section><!------content-------->
+						<span class="clear"></span>
+					</section><!---------section-------------->
+
+					<section class="section">
+						<input type="radio" name="accordion-1" id="section-2" value="toggle"/>
+						<label for="section-2" class="section2"> <span>Portrait</span></label>
+
+						<section class="content">
+							<ul class="list-2">
+								<li><a href="Illustration.html" target="_blank"><span>Illustration</span></a></li>
+								<li><a href="Graphic.html" target="_blank"><span>Graphic Design</span></a></li>
+								<li><a href="web.html" target="_blank"><span>Web Design</span></a></li>
+							</ul>
+						</section><!------content----------->
+					</section><!------------------------section----------->
+
+				</article><!----------accordion----------->
+			</section><!-------------------left-menu------------------>
+
+			<section id="main">
+					<ul id="menu">
+						<li><a href="#content1">Top</a></li>
+						<li><a href="#aboutme">Biography</a></li>
+						<li><a href="#gallery">Works</a></li>
+						<li><a class="btn3">Portrait</a></li>
+					</ul>
+
+					<section class="clear"></section>
+
+					<article id="panes-container">
+						<section id="panes">
+							<section class="pane1 pane">
+								<ul>
+									<li><a href="Illustration.html" target="_blank" class="option1">Illustration</a></li>
+									<li><a href="Graphic.html" target="_blank" class="option2">Graphic Design</a></li>
+									<li><a href="web.html" target="_blank" class="option3">Web Design</a></li>
+								</ul>
+							</section>
+						</section>
+					</article>
+				</section><!--#MAIN-->
+
+		<section id="content">
+			<div class="menu-trigger"></div>
+		</section>
+		<section id="scroller" class="demo">
+			<a href="#aboutme"><span></span>Scroll</a>
+		</section>
+
+	</header><!-------------------header-------------->
+
+	<nav id="slide-menu">
+		<ul>
+			<li class="cc-title"><h2>contact form</h2></li>
+			<li class="cc-tw"><a href="https://twitter.com/Rote_libelle?lang=ja" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li class="cc-fb"><a href="https://www.facebook.com/Yomi.Nightmare"><i class="fa fa-facebook-square" target="_blank"></i></a></li>
+			<li class="cc-in"><a href="#"><i class="fa fa-instagram"></i></a></li>
+			<li class="cc">
+				<div id="contact-wrap">
+					<div id="contact-area">
+						<form method="post" action="mail.php">
+							<input type="text" name="Name" id="name" placeholder="Full Name" />
+
+							<input type="text" name="City" id="City" placeholder="City"/>
+
+							<input type="text" name="Email" id="Email" placeholder="Email"/>
+
+							<input type="text" name="Phone" id="Phone" placeholder="Phone"/>
+
+							<textarea name="comment" rows="20" cols="20" id="Message" placeholder="Message"></textarea>
+
+							<input type="submit" name="submit" value="Submit" class="submit-button"/>
+
+						</form>
+					</div><!-----------contact-area-------->
+				</div><!---------contact-wrap---------->
+			</li>
+
+			<li class="cc-jork">
+				<h3>
+					This contact form is only the design.
+					It can't be used as the contact means.
+					I'm sorry.
+					<br />
+					The following make a contact, please.
+				</h3>
+			</li>
+
+			<li class="cc-address">
+				<ul class="address">
+					<li><i class="fa fa-mobile">:</i><a href="tel:08040970138">080-4097-0138</a></li>
+
+					<li><i class="fa fa-building-o">:</i><a href="https://goo.gl/maps/MksYC7bsuZy" target="_blank">神奈川県座間市緑ヶ丘5丁目12-19</a></li>
+
+					<li><i class="fa fa-envelope">:</i><a href="mailto:n.scums.0138@softbank.ne.jp">n.scums.0138@softbank.ne.jp</a></li>
+				</ul>
+			</li>
+	</nav><!---------------slide-menu-------------->
+
+	<section id="aboutme">
+		<section class="about-head wow animated fadeInDown" data-wow-duration="1s" data-wow-offset="5">
+			<p>
+				Biography
+			</p>
+		</section>
+		<section class="clear-box wow animated fadeInDown" data-wow-duration="1s" data-wow-offset="5">
+		</section>
+
+		<section class="about-pic">
+			<img src="img/01.jpg" alt="">
+		</section>
+
+		<section class="about-text">
+			<h2>
+				Hello.<br>
+				My name is Tatsuya Akitsu.<br>
+				I'm twenty-two years old.<br>
+				I'm from Kanagawa in Japan.<br>
+				I'm a web director.<br>
+				I'd like to introduce the part of my work to everybody this time.<br>
+				Please see it leisurely.<br>
+			</h2>
+		</section>
+
+		<section class="profile">
+			<p>
+				秋津 辰弥
+			</p>
+
+			<h1>
+				1993/08/01    22years old.
+			</h1>
+
+			<h2>
+				Blood-type:A
+			</h2>
+		</section>
+
+		<section id="scroller" class="demo">
+			<a href="#gallery"><span></span>Scroll</a>
+		</section>
+	</section><!------------aboutme------------->
+
+	<section id="gallery">
+		<section class="gallery-head wow animated fadeInDown" data-wow-duration="1s" data-wow-offset="10">
+			<p>
+				Works
+			</p>
+		</section><!-----------------gallery-head------------>
+		<section class="clear-box2 wow animated fadeInDown" data-wow-duration="1s" data-wow-offset="10">
+		</section><!---------------------clear-box--------------->
+		<section class="grid">
+			<figure class="effect-chico">
+				<img class="ai" src="img/ai/big/04.gif" alt="">
+					<figcaption>
+						<h2 class="ai-text">Illustration</h2>
+						<p class="ai-word">An illustrator was used and original picture, business card and logo were produced.</p>
+					</figcaption>
+			</figure>
+			<figure class="effect-chico">
+				<img class="psd" src="img/psd/big/04.jpg" alt="">
+					<figcaption>
+						<h2 class="psd-text">Graphic Design</h2>
+						<p class="psd-word">I combine a picture of various license frees and am making them express reality and fantastic various worldviews.</p>
+					</figcaption>
+			</figure>
+			<figure class="effect-chico">
+				<img class="web" src="img/web/01.png" alt="">
+					<figcaption>
+						<h2 class="web-text">Web Design</h2>
+						<p class="web-word">I'll use html and css and propose the expressive site design.</p>
+					</figcaption>
+			</figure>
+		</section><!-------------grid-------------->
+
+		<section class="tb-gallery">
+			<img class="tb-ai" src="img/ai/big/04.gif" alt="">
+			<img class="tb-psd" src="img/psd/big/04.jpg" alt="">
+			<img class="tb-web" src="img/web/01.png" alt="">
+
+			<h2 class="tb-ai-text">
+				Illustration
+			</h2>
+
+			<h2 class="tb-psd-text">
+				Graphic Design
+			</h2>
+
+			<h2 class="tb-web-text">
+				Web Design
+			</h2>
+
+			<h3 class="tb-ai-texts">
+				An illustrator was used and original picture, business card and logo were produced.
+			</h3>
+
+			<h3 class="tb-psd-texts">
+				I combine a picture of various license frees and am making them express reality and fantastic various worldviews.
+			</h3>
+
+			<h3 class="tb-web-texts">
+				I'll use html and css and propose the expressive site design.
+			</h3>
+		</section><!--------------tb-gallery--------------->
+
+		<section class="mb-gallery">
+			<img class="mb-ai" src="img/ai/big/04.gif" alt="">
+			<h2 class="mb-ai-text">
+				Illustration
+			</h2>
+			<h3 class="mb-ai-texts">
+				An illustrator was used and original picture, business card and logo were produced.
+			</h3>
+
+			<img class="mb-psd" src="img/psd/big/04.jpg" alt="">
+			<h2 class="mb-psd-text">
+				Graphic Design
+			</h2>
+			<h3 class="mb-psd-texts">
+				I combine a picture of various license frees and am making them express reality and fantastic various worldviews.
+			</h3>
+
+			<img class="mb-web" src="img/web/01-2.png" alt="">
+			<h2 class="mb-web-text">
+				Web Design
+			</h2>
+			<h3 class="mb-web-texts">
+				I'll use html and css and propose the expressive site design.
+			</h3>
+		</section><!--------------------------mb-gallery------------------->
+
+
+<!-- 		<article class="more">
+			<a href="Illustration.html" target="_blank">
+				<h2 class="ai-more wow animatied fadeInDown" data-wow-duration="1s" data-wow-offset="10">
+					&#10551 more Illustration...
+				</h2>
+			</a>
+
+			<a href="Graphic.html" target="_blank">
+				<h3 class="psd-more wow animated fadeInDown" data-wow-duration="1s" data-wow-offset="10">
+					&#10551 more Graphic Design...
+				</h3>
+			</a>
+
+			<a href="web.html" target="_blank">
+				<h4 class="web-more wow animated fadeInDown" data-wow-duration="1s" data-wow-offset="10">
+					&#10551 more Web Design...
+				</h4>
+			</a>
+		</article><!--------------more text area------------------->
+
+		<article class="more-icon">
+			<section class="more-index">
+				<h1>Portrait page</h1>
+			</section>
+			<section class="ai-tap">
+				<a href="Illustration.html" target="_blank">
+					<img class="ai-icon" src="img/023.png" alt="">
+				</a>
+					<p>more pictures...</p>
+			</section>
+
+			<section class="psd-tap">
+				<a href="Graphic.html" target="_blank">
+					<img class="psd-icon" src="img/024.png" alt="">
+				</a>
+					<p>more pictures...</p>
+			</section>
+
+			<section class="web-tap">
+				<a href="web.html" target="_blank">
+					<img class="web-icon" src="img/025.png" alt="">
+				</a>
+					<p>more design...</p>
+			</section>
+		</article><!-----------article-------------------->
+
+		<section id="scroller" class="demo">
+			<a href="#footer"><span></span>Scroll</a>
+		</section>
+	</section><!--------------gallery---------------->
+
+	<footer id="footer">
+		<h2>
+			<strong>&copy; copyright Tatsuya Akitsu</strong>
+		</h2>
+		<h3>
+			2015.  All rights reserved.
+		</h3>
+
+		<section id="scroller2" class="demo2">
+			<a href="#content1"><span></span>Top</a>
+		</section>
+
+	</footer><!--------------footer------------------>
+
+
+	<!-----------------------------------------------js----------------------------------------->
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react.min.js"></script>
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+			<!-- <script src="js/foll.js"></script> -->
+			<script src="js/accordion.js"></script>
+			<script src="js/scroller.js"></script>
+			<script src="js/contact-area.js"></script>
+			<script src="js/contact.js"></script>
+			<script src="js/index.js"></script>
+
+			<script>
+				// For Demo purposes only (show hover effect on mobile devices)
+				[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+				} );
+			</script>
+	</body>
+</html>

@@ -1,0 +1,391 @@
+@import url(https://fonts.googleapis.com/css?family=Text+Me+One);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body{
+	width:1440px;
+	margin:0;
+	padding:0;
+	background-image:url('../img/026.png');
+	background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+
+/*header*/
+header{
+	width:1440px;
+	height:780px;
+	position:relative;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	background-image:url('../img/03-5.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.hana{
+	z-index: -1000;
+	position:absolute;
+	height:0;
+	width:0;
+	border: 10px solid #fff;
+	border-radius: 15px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.hana::after{
+	content:"";
+	z-index: -1000;
+	display:block;
+	position:absolute;
+	top:-7px;
+	left:-7px;
+	height:0;
+	width:0;
+	-webkit-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+#titlearea{
+	width:30%;
+	height:390px;
+	margin-left:37%;
+	padding-top:10%;
+}
+
+#titlearea img{
+	width:100%;
+}
+
+
+
+/*about me*/
+#aboutme{
+	width:100%;
+	height:780px;
+	position:absolute;
+	top:135%;
+	left:-550px;
+	background-image:url('../img/027.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+.about-head{
+	width:25%;
+	height:60px;
+	position:absolute;
+	top:-20%;
+	left:30%;
+}
+
+.about-head p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:50px;
+	color:#fff;
+	/*text-shadow:5px 5px 5px #000;*/
+}
+
+.about-head p:first-letter{
+	color:#2F8EC6;
+}
+
+.clear-box{
+	width:30%;
+	height:2px;
+	background-color:#fff;
+	position:absolute;
+	top:-13%;
+	left:30%;
+}
+
+.about-pic{
+	width:40%;
+	height:430px;
+	padding-top:10%;
+	padding-left:20%;
+	float:left;
+}
+
+.about-pic img{
+	width:100%;
+	border-radius:50%;
+}
+
+.about-text{
+	width:100%;
+	height:380px;
+	padding-top:7%;
+	padding-left:45%;
+}
+
+.about-text:after{
+	content:"";
+	clear:both;
+	display:none;
+}
+
+.about-text h2{
+	font-family: 'Text Me One', sans-serif;
+	font-size:25px;
+	line-height:35px;
+	color:#000;
+	padding-top:8%;
+}
+
+.profile{
+	width:30%;
+	height:150px;
+	margin-left:24%;
+	margin-top:10%;
+}
+
+.profile p{
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-size:30px;
+	color:#000;
+}
+
+.profile h1, h2{
+	font-family: 'Text Me One', sans-serif;
+	font-size:20px;
+	color:#000;
+}
+
+.profile h1{
+	padding-top:5%;
+}
+
+.profile h2{
+	padding-top:5%;
+}
+
+/*gallery*/
+#gallery{
+	width:100%;
+	height:780px;
+	position:absolute;
+	top:265%;
+	left:-550px;
+	background-image:url('../img/028.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+.gallery-head{
+	width:25%;
+	height:60px;
+	position:absolute;
+	top:-20%;
+	left:30%;
+}
+
+.gallery-head p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:50px;
+	color:#fff;
+	/*text-shadow:5px 5px 5px #000;*/
+}
+
+.gallery-head p:first-letter{
+	color:#2F8EC6;
+}
+
+.clear-box2{
+	width:30%;
+	height:2px;
+	background-color:#fff;
+	position:absolute;
+	top:-13%;
+	left:30%;
+}
+
+/*.more{
+	width:66%;
+	height:350px;
+	position:relative;
+	top:22%;
+	left:21%;
+}
+
+.more a{
+	text-decoration:none;
+}
+
+.more h2, h3, h4{
+	font-family: 'Text Me One', sans-serif;
+	font-size:18px;
+	color:#000;
+}
+
+.ai-more{
+	position:absolute;
+	top:2%;
+	left:12%;
+}
+
+.ai-more:hover{
+	color:#2F8EC6;
+	border-bottom:1px solid #2F8EC6;
+}
+
+.psd-more{
+	position:absolute;
+	top:2%;
+	left:44%;
+}
+
+.psd-more:hover{
+	color:#2F8EC6;
+	border-bottom:1px solid #2F8EC6;
+}
+
+.web-more{
+	position:absolute;
+	top:92%;
+	left:82%;
+	width:20%;
+}
+
+.web-more:hover{
+	color:#2F8EC6;
+	border-bottom:1px solid #2F8EC6;
+}*/
+
+.more-icon{
+	position:relative;
+	margin-left:22%;
+	margin-top: 14%;
+	width:40%;
+	height:250px;
+	/*border: 1px solid #EBEBEB;*/
+}
+
+.more-icon img{
+	width:20%;
+}
+
+.more-index{
+	display: block;
+	position:absolute;
+	top:10%;
+	left:30%;
+}
+
+.more-index h1{
+	font-size:40px;
+	font-family: 'Text Me One', sans-serif;
+	color:#000;
+}
+
+/*ai-icon*/
+
+.ai-icon{
+	position:absolute;
+	top:40%;
+	left:10%;
+}
+
+
+.ai-tap img:hover{
+	background-image:url('../img/023-2.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.ai-tap p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:20px;
+	color:#000;
+	position:absolute;
+	top:80%;
+	left:10%;
+}
+
+/*psd-icon*/
+.psd-icon{
+	position:absolute;
+	top:40%;
+	left:40%;
+}
+
+.psd-tap img:hover{
+	background-image:url('../img/024-2.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+
+.psd-tap p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:20px;
+	color:#000;
+	position:absolute;
+	top:80%;
+	left:40%;
+}
+
+/*web-icon*/
+.web-icon{
+	position:absolute;
+	top:50%;
+	left:70%;
+}
+
+.web-tap img:hover{
+	background-image:url('../img/025-2.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.web-tap p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:20px;
+	color:#000;
+	position:absolute;
+	top:80%;
+	left:70%;
+}
+
+
+
+/*footer*/
+footer{
+	width:100%;
+	height:100px;
+	/*background-image:url('../img/010.png');
+	background-size:100%;
+	background-repeat:no-repeat;*/
+	position:absolute;
+	top:385%;
+	left:-550px;
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+footer h2{
+	font-family: 'Text Me One', sans-serif;
+	font-size:25px;
+	color:#000;
+	padding-top:3%;
+	padding-left:30%;
+}
+
+footer h3{
+	font-family: 'Text Me One', sans-serif;
+	font-size:25px;
+	color:#000;
+	padding-left:51%;
+	margin-top:-1.7%;
+}

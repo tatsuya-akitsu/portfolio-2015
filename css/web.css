@@ -1,0 +1,436 @@
+@import url(https://fonts.googleapis.com/css?family=Text+Me+One);
+
+body{
+	background-image:url('../img/030.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:1440px;
+	margin:0;
+	padding:0;
+}
+
+#title{
+	width:25%;
+	height:60px;
+	position:absolute;
+	top:15%;
+	left:30%;
+}
+
+#title p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:50px;
+	color:#000;
+}
+
+#title p:first-letter{
+	color:#2F8EC6;
+}
+
+#title-2{
+	width:25%;
+	height:60px;
+	position:absolute;
+	top:15%;
+	left:38%;
+}
+
+#title-2 p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:50px;
+	color:#000;
+}
+
+#title-2 p:first-letter{
+	color:#2F8EC6;
+}
+
+#logo{
+	width:10%;
+	height:140px;
+	position:absolute;
+	top:10%;
+	left:5%;
+}
+
+#logo img{
+	width:100%;
+}
+
+figure.effect-oscar figcaption {
+	position:absolute;
+	top:115%;
+	left:30%;
+	-webkit-transition: background-color 0.35s;
+	transition: background-color 0.35s;
+}
+
+figcaption p{
+	font-family: 'Text Me One', sans-serif;
+	font-size:20px;
+	color:#000;
+}
+
+figure.effect-oscar figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+}
+
+figure.effect-oscar h2 {
+	margin: 20% 0 10px 0;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+figure.effect-oscar:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
+.tools{
+	position:absolute;
+	top:12%;
+	left:68%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	width:30%;
+	height:110px;
+}
+
+.tools h1{
+	padding-top: 2%;
+	font-family: 'Text Me One', sans-serif;
+	font-size:30px;
+	color:#000;
+}
+
+.tools h2{
+	font-family: 'Text Me One', sans-serif;
+	font-size:25px;
+	color:#000;
+}
+
+.tools h3{
+	font-family: 'Text Me One', sans-serif;
+	font-size:25px;
+	color:#000;
+}
+
+.container{
+	width:100%;
+	margin-top:15%;
+}
+
+.ao{
+	margin-top: 40%;
+	margin-left: 10%;
+	width: 30%;
+	height:510px;
+	background-image:url('../img/031.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.ao img{
+	position: relative;
+	margin-left: 0.9%;
+	margin-top: 7%;
+	width: 98%;
+}
+
+.float{
+	content:"";
+	display: block;
+	float: left;
+}
+
+.ao ul.ao-index {
+	list-style-type: none;
+	margin-top: -60%;
+	margin-left: 105%;
+	border-right: 1px solid #000;
+	width: 30%;
+	height: 500px;
+}
+
+.ao-index:after{
+	content: "";
+	display: none;
+	clear: both;
+}
+
+.ao-index li{
+	font-size: 25px;
+	line-height: 40px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.ao ul.ao-text{
+	list-style-type: none;
+	margin-left: 140%;
+	margin-top: -116%;
+	width: 100%;
+}
+
+.ao-text li{
+	font-size: 25px;
+	line-height: 40px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.ao-tb{
+	position: absolute;
+	top: 95%;
+	left: 25%;
+	width: 35%;
+}
+
+.ao-tb img{
+	width: 70%;
+}
+
+.ao-mb{
+	position: absolute;
+	top: 100%;
+	left: 10%;
+	width: 35%;
+}
+
+.ao-mb img{
+	width:20%;
+}
+
+.ao a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+.ao h2{
+	padding-top: 6%;
+	font-size: 30px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.ao a:hover{
+	color: #2F8EC6;
+	border-bottom: 1px solid #2F8EC6;
+}
+
+
+.pl{
+	margin-top: 40%;
+	margin-left: 10%;
+	width: 30%;
+	height:510px;
+}
+
+.pl img{
+	margin-left: 140%;
+	margin-top: 0%;
+	width: 100%;
+}
+
+.pl ul.pl-index {
+	list-style-type: none;
+	margin-top: -58%;
+	margin-left: 105%;
+	border-left: 1px solid #000;
+	width: 30%;
+	height: 500px;
+}
+
+.pl-index:after{
+	content: "";
+	display: none;
+	clear: both;
+}
+
+.pl-index li{
+	font-size: 25px;
+	padding-left: 15%;
+	line-height: 40px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.pl ul.pl-text{
+	list-style-type: none;
+	text-align: right;
+	margin-left: -5%;
+	margin-top: -116%;
+	width: 100%;
+}
+
+.pl-text li{
+	font-size: 25px;
+	line-height: 40px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.pl a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+.pl h2{
+	padding-top: 6%;
+	padding-left: 140%;
+	width: 50%;
+	font-size: 30px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.pl a:hover{
+	color: #2F8EC6;
+	border-bottom: 1px solid #2F8EC6;
+}
+
+.gw{
+	margin-top: 40%;
+	margin-left: 10%;
+	width: 30%;
+	height:510px;
+}
+
+.gw img{
+	margin-left: 0.9%;
+	margin-top: 0%;
+	width: 100%;
+}
+
+.yoko{
+	content:"";
+	display: block;
+	float: left;
+}
+
+.gw ul.gw-index {
+	list-style-type: none;
+	margin-top: -58%;
+	margin-left: 105%;
+	border-right: 1px solid #000;
+	width: 30%;
+	height: 500px;
+}
+
+.gw-index:after{
+	content: "";
+	display: none;
+	clear: both;
+}
+
+.gw-index li{
+	font-size: 25px;
+	line-height: 40px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.gw ul.gw-text{
+	list-style-type: none;
+	margin-left: 140%;
+	margin-top: -116%;
+	width: 100%;
+}
+
+.gw-text li{
+	font-size: 25px;
+	line-height: 40px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.gw a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+.gw h2{
+	padding-top: 6%;
+	font-size: 30px;
+	font-family: 'Text Me One', sans-serif;
+	color: #000;
+}
+
+.gw a:hover{
+	color: #2F8EC6;
+	border-bottom: 1px solid #2F8EC6;
+}
+
+
+
+/*footer*/
+footer{
+	position: relative;
+	margin-top: 10%;
+	width:100%;
+	height:60px;
+}
+
+footer a{
+	text-decoration:none;
+	width: 5%;
+}
+
+footer h1{
+	position: absolute;
+	top: 45%;
+	left: 80%;
+	font-family: 'Text Me One', sans-serif;
+	font-size:20px;
+	width: 5%;
+	color:#000;
+	border-bottom:1px solid #000;
+}
+
+footer h1:hover{
+	color:#2F8EC6;
+	border-bottom:1px solid #2F8EC6;
+}
+
+footer h2{
+	font-family: 'Text Me One', sans-serif;
+	font-size:25px;
+	color:#000;
+	padding-top:2%;
+	padding-left:30%;
+}
+
+footer h3{
+	font-family: 'Text Me One', sans-serif;
+	font-size:25px;
+	color:#000;
+	padding-left:51%;
+	margin-top:-1.7%;
+}

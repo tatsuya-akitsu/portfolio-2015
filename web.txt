@@ -1,0 +1,345 @@
+<section class="ao">
+	<img src="img/web/02.jpg" alt="">
+
+	<ul class="ao-index">
+		<li>title</li>
+		<li>work</li>
+		<li>sententce</li>
+	</ul>
+
+	<section class="border-line">
+	</section>
+	<ul class="ao-text">
+		<li class="title-text">Astronomical Observation</li>
+		<li class="work-text">23h</li>
+		<li class="sentence-text">I imagine a club of NPO which makes
+			observations and produce as a home page of the group.
+			The consciousness was made the thing
+			which uses jQuery and makes
+			them reduce a blog sense by the thing which makes a movement last.
+			<br />
+			<br />
+			This site is responsive site.
+		</li>
+	</ul>
+
+	<h2 class="link">
+	<a href="Astronomical.Observation/top.html" target="_blank">
+		this web site...
+	</a>
+	</h2>
+</section><!---------------ao---------------->
+
+<section class="bar">
+	<img src="img/web/03.png" alt="">
+	<ul class="bar-index">
+		<li>title</li>
+		<li>work</li>
+		<li>sententce</li>
+	</ul>
+
+	<section class="border-line-2">
+	</section>
+	<ul class="bar-text">
+		<li class="title-text-2">Plumeria</li>
+		<li class="work-text-2">18h</li>
+		<li class="sentence-text-2">In Roppongi, chic bars
+			for adults are imagined and produced a little.
+			I produce beautifully using the visual effect and
+			picture processing using the whole screen.
+			You can have also thrust at a story with the parallax effect.
+		</li>
+	</ul>
+
+	<h2 class="link-2">
+	<a href="Plumeria/index.html" target="_blank">
+		this web site...
+	</a>
+	</h2>
+</section><!---------------bar---------------->
+
+<section class="works">
+	<img src="img/web/04.png" alt="">
+	<ul class="web-index">
+		<li>title</li>
+		<li>work</li>
+		<li>sententce</li>
+	</ul>
+
+	<section class="border-line-3">
+	</section>
+	<ul class="web-text">
+		<li class="title-text-3">Glass Pless</li>
+		<li class="work-text-3">15h</li>
+		<li class="sentence-text-3">I produce in a group work in the school.
+		I produce as an original site by making reference to
+		a sample site.
+		A SNS operating company is assumed and produced.
+		The whole adjustment and part coding charge.
+		</li>
+	</ul>
+
+	<h2 class="link-3">
+	<a href="team smorkers/index.html" target="_blank">
+		this web site...
+	</a>
+	</h2>
+</section><!---------------works---------------->
+
+
+
+
+
+
+
+
+
+
+
+.ao{
+	width:80%;
+	height:590px;
+	padding-top:10%;
+	margin-left:10%;
+}
+
+.ao img{
+	width:40%;
+	float:left;
+}
+
+.ao ul{
+	list-style-type:none;
+}
+
+.ao-index{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+	line-height:80px;
+	float:left;
+}
+
+.border-line{
+	width:1px;
+	height:420px;
+	border-right:1px solid #000;
+	position:absolute;
+	top:39%;
+	left:49%;
+}
+
+.ao-text{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+}
+
+.title-text{
+	margin-left:50%;
+	margin-top:2.3%;
+}
+
+.work-text{
+	margin-left:50%;
+	margin-top:5.2%;
+}
+
+.sentence-text{
+	margin-left:50%;
+	margin-top:5%;
+}
+
+.ao-text:after{
+	content:"";
+	display:none;
+	clear:both;
+}
+
+.link a{
+	text-decoration:none;
+	color:#000;
+	border:1px solid #000;
+}
+
+.ao h2{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+	width:20%;
+	padding-top:5%;
+	padding-left:50%;
+}
+
+.link a:hover{
+	color:#2F8EC6;
+	border:1px solid #2F8EC6;
+}
+
+
+.bar{
+	width:80%;
+	height:1230px;
+	padding-top:10%;
+	margin-left:10%;
+}
+
+.bar img{
+	width:20%;
+	float:right;
+}
+
+.bar ul{
+	list-style-type:none;
+	text-align:right;
+	margin-right:2%;
+}
+
+.bar-index{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+	line-height:80px;
+	float:right;
+}
+
+.border-line-2{
+	width:1px;
+	height:420px;
+	border-right:1px solid #000;
+	position:absolute;
+	top:133%;
+	left:65%;
+}
+
+.bar-text{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+}
+
+.title-text-2{
+	width:10%;
+	margin-left:59%;
+	margin-top:2.3%;
+}
+
+.work-text-2{
+	width:5%;
+	margin-left:64%;
+	margin-top:5.2%;
+}
+
+.sentence-text-2{
+	width:35%;
+	margin-left:34%;
+	margin-top:5%;
+}
+
+.bar-text:after{
+	content:"";
+	display:none;
+	clear:both;
+}
+
+.link-2 a{
+	text-decoration:none;
+	color:#000;
+	border:1px solid #000;
+}
+
+.bar h2{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+	width:20%;
+	padding-top:5%;
+	padding-left:50%;
+}
+
+.link-2 a:hover{
+	color:#2F8EC6;
+	border:1px solid #2F8EC6;
+}
+
+
+.works{
+	width:80%;
+	height:1880px;
+	padding-top:10%;
+	margin-left:10%;
+}
+
+.works img{
+	width:40%;
+	float:left;
+}
+
+.web ul{
+	list-style-type:none;
+}
+
+.web-index{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+	line-height:80px;
+	margin-left:1%;
+	float:left;
+}
+
+.border-line-3{
+	width:1px;
+	height:420px;
+	border-right:1px solid #000;
+	position:absolute;
+	top:310%;
+	left:50%;
+}
+
+.web-text{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+}
+
+.title-text-3{
+	margin-left:51%;
+	margin-top:2.3%;
+}
+
+.work-text-3{
+	margin-left:51%;
+	margin-top:5.2%;
+}
+
+.sentence-text-3{
+	margin-left:51%;
+	margin-top:5%;
+}
+
+.web-text:after{
+	content:"";
+	display:none;
+	clear:both;
+}
+
+.link-3 a{
+	text-decoration:none;
+	color:#000;
+	border:1px solid #000;
+}
+
+.link-3{
+	font-family: 'Text Me One', sans-serif;
+	font-size:23px;
+	color:#000;
+	width:20%;
+	padding-top:5%;
+	padding-left:51%;
+}
+
+.link-3 a:hover{
+	color:#2F8EC6;
+	border:1px solid #2F8EC6;
+}

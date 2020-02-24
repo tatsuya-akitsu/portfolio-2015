@@ -1,0 +1,114 @@
+#main a, a:link, a:visited {
+	text-decoration:none;
+	color:#000;
+	cursor:pointer;
+}
+#main a:hover {
+	text-decoration:none;
+	color:#2F8EC6;
+}
+
+.clear {
+	clear:both;
+}
+
+.button {
+	display:block;
+	padding:20px;
+	background:#EEE;
+	text-align:center;
+}
+
+#main {
+	position:fixed;
+	top:50%;
+	left:24%; 
+	z-index:100;
+	font-family: 'Text Me One', sans-serif;
+	width:60%;
+	padding:20px;
+	margin:-402px auto;
+}
+
+#menu {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+}
+
+#menu li {
+	margin:0 auto;
+	padding:20px;
+	position:relative;
+	float:left;
+	display:block;
+}
+
+#menu li a {
+	text-align:center;
+	display:block;
+	padding:10px 0;
+	width:100px;
+	color:#000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+#menu li a:hover {
+	color:#2F8EC6;
+	border-top:1px solid #2F8EC6;
+	border-bottom:1px solid #2F8EC6;
+}
+
+#panes-container {
+	height:400px;
+	width:600px;
+	position:relative;
+	overflow:hidden;
+}
+#panes {
+	position:relative;
+	top:-202px;
+	left:0;
+}
+
+.pane {
+	padding-left:150px;
+	position:absolute;
+	height:200px;
+}
+
+.pane ul {
+	padding:0;
+	list-style:none;
+}
+.pane ul li {
+	margin:0;
+	padding:0;
+	line-height:26px;
+}
+.pane ul li a {
+	text-align:right;
+	text-decoration:none;
+	color:#000;
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+	padding:5px;
+	text-transform:uppercase;
+}
+.pane ul li a:hover {
+	color:#2F8EC6
+	border-bottom:1px solid #2F8EC6;
+}
+.pane ul li a.selected {
+	color:#2F8EC6;
+}
+
+
+.pane1 {
+	z-index:4;
+}
+.pane1 ul li {
+	width:200px;
+}
